@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { type } from "../variables/index";
+import { media } from "../variables/index";
 import { H1 } from "../variables/Text";
 import { ReactComponent as TopLogo } from "../images/logo.svg";
 import botw from "../images/first/botw.jpg";
@@ -107,7 +107,8 @@ export const MainPage = () => {
             Sovereign Grace Bible Church Plot 457C Oluwadamilola Fashade Street,
           </p>
           <p> Omole Phase 1, Lagos </p>
-          <p> www.sgbc.ng </p>
+          <p><LINK to=" https://www.sgbc.ng/ ">  www.sgbc.ng 
+          </LINK></p>
         </Foot>
       </Footer>
     </Container>
@@ -132,10 +133,13 @@ const Header = styled.div`
 const HeadText = styled(H1)`
   color: white;
   font-size: 4.5rem;
-  font: Roboto Condensed;
 
   span {
     color: #ff0000;
+  }
+
+  @media ${media.mobile} {
+   font-size:3rem;
   }
 `;
 
@@ -158,6 +162,14 @@ const Notice = styled.div`
   p {
     margin: 1rem 0;
   }
+  @media ${media.mobile} {
+    font-size: 1.3rem;
+
+    p {
+        margin: 1rem 1rem
+    }
+   }
+
 `;
 
 const HeadDiv = styled.div`
@@ -174,6 +186,10 @@ const Body = styled.div`
 `;
 const BOD = styled.div`
   margin: 0 0 0 5rem;
+
+  @media ${media.mobile} {
+    margin: 0 0 0 2rem;
+   }
 `;
 const InnerDiv = styled.div`
   display: flex;
@@ -185,16 +201,30 @@ const IMG = styled.img`
   width: 80%;
   height: auto;
   margin-bottom: 2rem;
+
+  @media ${media.mobile} {
+    margin-bottom: 1.5rem;
+   
+  
 `;
 const IMAGECARD = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  @media ${media.mobile} {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 const NH1 = styled(H1)`
   margin-top: 3rem;
   margin-bottom: 3rem;
   font-weight: bold;
   color: #222222;
+
+  @media ${media.mobile} {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+   }
 `;
 const Bottom = styled.div`
   height: auto;
@@ -202,6 +232,13 @@ const Bottom = styled.div`
   background-color: #ffffff;
   padding-top: 7rem;
   padding-bottom: 7rem;
+
+  @media ${media.mobile} {
+    padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+
+  }
 `;
 const Bot = styled.div`
   display: flex;
@@ -221,6 +258,18 @@ const Bot = styled.div`
     text-align: center;
     margin-top: 2rem;
 }
+
+@media ${media.mobile} {
+  p {
+    width: 80%;
+  }
+  p:nth-child(5) {
+    width: 50%;
+    text-align: center;
+    margin-top: 2rem;
+}
+}
+
 `;
 const Footer = styled.div`
   display: flex;
@@ -233,11 +282,25 @@ const Footer = styled.div`
     display: flex;
     align-items: center;
   }
+
+  @media ${media.mobile} {
+    padding: 2rem 2rem;
+    font-size: 1.1rem;
+  }
 `;
 const Foot = styled.div`
   width: 20%;
   flex-wrap: wrap;
+
+  @media ${media.mobile} {
+    width: 40%;
+  }
+  
+
 `;
+const LINK =styled(Link)`
+color: white;
+`
 
 const itemArray = [
   {
