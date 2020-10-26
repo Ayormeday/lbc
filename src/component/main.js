@@ -98,7 +98,7 @@ export const MainPage = () => {
             </p>
             <p>
                 <a href= "https://www.chapellibrary.org/search">CHAPEL LIBRARY </a>
-              2603 West Wright Street Pensacola, Florida 32505
+              <br></br>2603, West Wright Street Pensacola, Florida 32505
               USA Phone: (850) 438-6666 • Fax: (850) 438-0227
               chapel@mountzion.org • www.ChapelLibrary.org
             </p>
@@ -109,7 +109,7 @@ export const MainPage = () => {
         <p>© Lagos Bible Conference 2020</p>
         <Foot>
           <p>
-            Sovereign Grace Bible Church Plot 457C Oluwadamilola Fashade Street,
+            Sovereign Grace Bible Church<br></br>Plot 451a, Oluwadamilola Fashade Street,
           </p>
           <p> Omole Phase 1, Lagos </p>
           <p><A href = " https://www.sgbc.ng/ ">  www.sgbc.ng 
@@ -134,6 +134,10 @@ const Header = styled.div`
   position: fixed;
   background-color: #222222;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+
+  @media ${media.mobile} {
+    height: 20vh
+   }
 `;
 const HeadText = styled(H1)`
   color: white;
@@ -144,7 +148,7 @@ const HeadText = styled(H1)`
   }
 
   @media ${media.mobile} {
-   font-size:3rem;
+   font-size:2.5rem;
   }
 `;
 
@@ -182,6 +186,10 @@ const HeadDiv = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 0 5rem 0 5rem;
+
+  @media ${media.mobile} {
+    margin: 0 1.5rem 0 1.5rem;
+   }
 `;
 
 const Body = styled.div`
@@ -289,8 +297,8 @@ const Footer = styled.div`
   }
 
   @media ${media.mobile} {
-    padding: 2rem 2rem;
-    font-size: 1.1rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
   }
 `;
 const Foot = styled.div`
@@ -298,7 +306,7 @@ const Foot = styled.div`
   flex-wrap: wrap;
 
   @media ${media.mobile} {
-    width: 40%;
+    width: 50%;
   }
   
 
