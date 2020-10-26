@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import { media } from "../variables/index";
 import { H1 } from "../variables/Text";
 import { ReactComponent as TopLogo } from "../images/logo.svg";
@@ -66,9 +65,9 @@ export const MainPage = () => {
                     return (
                       <>
                         <InnerDiv>
-                          <Link to={it.url}>
+                          <a href={it.url}>
                             <IMG src={it.img} alt=""></IMG>
-                          </Link>
+                          </a>
                         </InnerDiv>
                       </>
                     );
@@ -98,7 +97,7 @@ export const MainPage = () => {
               contact
             </p>
             <p>
-                <Link to= "https://www.chapellibrary.org/search">CHAPEL LIBRARY </Link>
+                <a href= "https://www.chapellibrary.org/search">CHAPEL LIBRARY </a>
               2603 West Wright Street Pensacola, Florida 32505
               USA Phone: (850) 438-6666 • Fax: (850) 438-0227
               chapel@mountzion.org • www.ChapelLibrary.org
@@ -113,8 +112,8 @@ export const MainPage = () => {
             Sovereign Grace Bible Church Plot 457C Oluwadamilola Fashade Street,
           </p>
           <p> Omole Phase 1, Lagos </p>
-          <p><LINK to=" https://www.sgbc.ng/ ">  www.sgbc.ng 
-          </LINK></p>
+          <p><A href = " https://www.sgbc.ng/ ">  www.sgbc.ng 
+          </A></p>
         </Foot>
       </Footer>
     </Container>
@@ -304,7 +303,7 @@ const Foot = styled.div`
   
 
 `;
-const LINK =styled(Link)`
+const A = styled.a`
 color: white;
 `
 
