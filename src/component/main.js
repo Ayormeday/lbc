@@ -23,6 +23,7 @@ import aira from "../images/third/aira.jpg";
 import aots from "../images/third/aots.jpg";
 import bthd from "../images/third/bthd.jpg";
 import ccdi from "../images/third/ccdi.jpg";
+import prel from "../images/third/prel.jpg";
 import doc3 from "../images/third/doc3.jpg";
 import medifg from "../images/third/medifg.jpg";
 import ralc from "../images/third/ralc.jpg";
@@ -32,6 +33,32 @@ import cmod from "../images/fourth/cmod.jpg";
 import lntwfg from "../images/fourth/lntwfg.jpg";
 import tiat from "../images/fourth/tiat.jpg";
 import tiog from "../images/fourth/tiog.jpg";
+import wdim from "../images/fifth/wdim.jpg";
+import tvfg from "../images/fifth/tvfg.jpg";
+import taer from "../images/fifth/taer.jpg";
+import gwii from "../images/fifth/gwii.jpg";
+import gpco from "../images/fifth/gpco.jpg";
+import worsfg from "../images/sixth/worsfg.jpg";
+import waoi from "../images/sixth/waoi.jpg";
+import rpot from "../images/sixth/rpot.jpg";
+import ldayfg from "../images/sixth/ldayfg.jpg";
+import goat from "../images/sixth/goat.jpg";
+import pwor from "../images/sixth/pwor.jpg";
+import bead from "../images/sixth/bead.jpg";
+import beld from "../images/sixth/beld.jpg";
+import fworfg from "../images/sixth/fworfg.jpg";
+import wtwo from "../images/seventh/wtwo.jpg";
+import satw from "../images/seventh/satw.jpg";
+import pdev from "../images/seventh/pdev.jpg";
+import elyh from "../images/seventh/elyh.jpg";
+import ecom from "../images/seventh/ecom.jpg";
+import evanfg from "../images/seventh/evanfg.jpg";
+import adai from "../images/seventh/adai.jpg";
+import ajat from "../images/eighth/ajat.jpg";
+import ajud from "../images/eighth/ajud.jpg";
+import cih1 from "../images/eighth/cih1.jpg";
+import cih2 from "../images/eighth/cih2.jpg";
+import wltw from "../images/eighth/wltw.jpg";
 
 
 export const MainPage = () => {
@@ -452,6 +479,11 @@ const itemArray = [
         url:
           "https://www.chapellibrary.org:8443/api/books/download?code=medifg&amp;format=pdf",
       },
+      {
+        img: prel,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=prel&format=pdf",
+      },
     ],
   },
   {
@@ -486,5 +518,163 @@ const itemArray = [
       
     ],
   },
+  {
+    id: 5,
+    session: "Biblical Preaching",
+    info: [
+      {
+        img: wdim,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=wdim&amp;format=pdf",
+      },
+      {
+        img: tvfg,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=gpco&amp;format=pdf",
+      },
+      {
+        img: taer,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=gwii&amp;format=pdf",
+      },
+      {
+        img: gwii,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=tvfg&amp;format=pdf",
+      },
+      {
+        img: gpco,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=taer&amp;format=pdf",
+      },
+      
+    ],
+  },
+  {
+    id: 6,
+    session: "One Worship",
+    info: [
+      {
+        img: pwor,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=pwor&amp;format=pdf",
+      },
+      {
+        img: goat,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=goat&amp;format=pdf",
+      },
+      {
+        img: rpot,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=rpot&amp;format=pdf",
+      },
+      {
+        img: waoi,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=waoi&amp;format=pdf",
+      },
+      {
+        img: beld,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=beld&amp;format=pdf",
+      },
+      {
+        img: bead,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=bead&amp;format=pdf",
+      },
+      {
+        img: fworfg,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=fworfg&amp;format=pdf",
+      },
+      {
+        img: worsfg,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=worsfg&amp;format=pdf",
+      },
+      {
+        img: ldayfg,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=ldayfg&amp;format=pdf",
+      },
+      
+    ],
+  },
+  {
+    id: 7,
+    session: "One Worship",
+    info: [
+      {
+        img: pdev,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=pdev&amp;format=pdf",
+      },
+      {
+        img: evanfg,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=evanfg&amp;format=pdf",
+      },
+      {
+        img: satw,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=satw&amp;format=pdf",
+      },
+      {
+        img: wtwo,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=wtwo&amp;format=pdf",
+      },
+      {
+        img: elyh,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=elyh&amp;format=pdf",
+      },
+      {
+        img: ecom,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=ecom&amp;format=pdf",
+      },
+      {
+        img: adai,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=adai&amp;format=pdf",
+      },
+      
+    ],
+  },
+  {
+    id: 8,
+    session: "A Brief Survey of Missions to Africa",
+    info: [
+      {
+        img: ajat,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=ajat&amp;format=pdf",
+      },
+      {
+        img: ajud,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=ajud&amp;format=pdf",
+      },
+      {
+        img: cih1,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=cih1&amp;format=pdf",
+      },
+      {
+        img: cih2,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=cih2&amp;format=pdf",
+      },
+      {
+        img: wltw,
+        url:
+          "https://www.chapellibrary.org:8443/api/books/download?code=wltw&amp;format=pdf",
+      },
+      
+    ],
+  }
 
 ];
