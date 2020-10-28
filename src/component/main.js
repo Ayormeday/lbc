@@ -350,7 +350,7 @@ const itemArray = [
       {
         img: sasi,
         url:
-          "https://www.google.com/url?sa=D&q=https://www.chapellibrary.org:8443/api/books/download%3Fcode%3Dsasi%26amp%3Bformat%3Dpdf&ust=1603552560000000&usg=AOvVaw09Bj1n0vyUafdN4gISnGXU&hl=en-GB",
+          "https://www.chapellibrary.org:8443/api/books/download?code=sasi&format=pdf",
       },
       {
         img: hina,
@@ -365,7 +365,7 @@ const itemArray = [
       {
         img: rdepfg,
         url:
-          "https://www.chapellibrary.org:8443/api/books/download?code=sith&amp;format=pdf",
+          "https://www.chapellibrary.org:8443/api/books/download?code=rdepfg&amp%3Bformat=pdf",
       },
       {
         img: botw,
@@ -530,22 +530,22 @@ const itemArray = [
       {
         img: tvfg,
         url:
-          "https://www.chapellibrary.org:8443/api/books/download?code=gpco&amp;format=pdf",
+          "https://www.chapellibrary.org:8443/api/books/download?code=tvfg&amp;format=pdf",
       },
       {
         img: taer,
         url:
-          "https://www.chapellibrary.org:8443/api/books/download?code=gwii&amp;format=pdf",
+          "https://www.chapellibrary.org:8443/api/books/download?code=taer&amp;format=pdf",
       },
       {
         img: gwii,
         url:
-          "https://www.chapellibrary.org:8443/api/books/download?code=tvfg&amp;format=pdf",
+          "https://www.chapellibrary.org:8443/api/books/download?code=gwii&amp;format=pdf",
       },
       {
         img: gpco,
         url:
-          "https://www.chapellibrary.org:8443/api/books/download?code=taer&amp;format=pdf",
+          "https://www.chapellibrary.org:8443/api/books/download?code=gpco&amp;format=pdf",
       },
       
     ],
@@ -604,7 +604,7 @@ const itemArray = [
   },
   {
     id: 7,
-    session: "One Worship",
+    session: "A Critique of Contextualisation",
     info: [
       {
         img: pdev,
